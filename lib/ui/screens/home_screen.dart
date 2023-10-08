@@ -1,16 +1,22 @@
 import 'package:flutter/material.dart';
 
+import '../../utils/app_theme.dart';
+import '../widgets/vm_appbar.dart';
+import '../widgets/vm_drawer.dart';
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home Screen'),
-      ),
-      body: const Center(
-        child: Text("Home Screen!!"),
+    return const Scaffold(
+      backgroundColor: AppTheme.background,
+      appBar: VMAppBar(),
+      drawer: VMDrawer(),
+      body: SafeArea(
+        child: Center(
+          child: Text("Home Screen!!"),
+        ),
       ),
     );
   }

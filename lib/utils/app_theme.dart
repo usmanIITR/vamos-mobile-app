@@ -8,6 +8,7 @@ class AppTheme {
   static const purple = Color(0xFF542FBC);
   static const darkGrey = Color(0xFF545454);
   static const lightGrey = Color(0xFFC0C0C0);
+  static const greyBackground = Color(0xFFF1EDED);
   static const darkGrey2 = Color(0xFF414040);
 
   static final h1 = TextStyle(
