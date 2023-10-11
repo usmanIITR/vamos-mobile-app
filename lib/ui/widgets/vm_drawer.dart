@@ -79,7 +79,7 @@ class VMDrawer extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "+91 - 1234567899",
+                        "+91-1234567899",
                         style: AppTheme.h4.copyWith(
                           color: AppTheme.darkGrey2,
                         ),
